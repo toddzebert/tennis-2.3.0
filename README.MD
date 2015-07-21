@@ -4,6 +4,8 @@ Arduino Uno R3 "Tennis" game. Uses a number of classes, multiple files, for just
 
 It's our first "serious" attempt at writing something for Arduino not from an existing Sketch, and really expanding our understanding of C++.
 
+It's completely non-blocking. That is, there's no use of `delay()` and we make use of Finite State Machine (FSM) technique.
+
 ##Play:
 
 * Play starts randomly from either player
